@@ -58,5 +58,5 @@ def day_2_part_2(filename):
 
 
 if __name__ == "__main__":
-    print(day_2_part_1("passwords.txt"))
-    print(day_2_part_2("passwords.txt"))
+    print(day_2_part_1("inputs/passwords.txt"))
+    print(day_2_part_2("inputs/passwords.txt"))

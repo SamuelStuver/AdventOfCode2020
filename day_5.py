@@ -51,7 +51,7 @@ def calc_seat_id(boarding_pass):
 
 
 def day_5_part_1():
-    with open("boarding_passes.txt", "r") as boarding_passes:
+    with open("inputs/boarding_passes.txt", "r") as boarding_passes:
         pass_list = boarding_passes.readlines()
     seat_ids = []
     for bp in pass_list:
@@ -60,7 +60,7 @@ def day_5_part_1():
 
 
 def day_5_part_2():
-    with open("boarding_passes.txt", "r") as boarding_passes:
+    with open("inputs/boarding_passes.txt", "r") as boarding_passes:
         pass_list = boarding_passes.readlines()
     seat_ids = []
     for bp in pass_list:

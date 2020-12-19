@@ -26,7 +26,7 @@ def count_same_answers(group):
 
 
 def day_6_part_1():
-    with open("customs_answers.txt", "r") as customs_answers:
+    with open("inputs/customs_answers.txt", "r") as customs_answers:
         #print([line.strip() for line in customs_answers.readlines() if line != "\n"])
         text = customs_answers.read()
     groups = [group.replace("\n", "") for group in text.split("\n\n")]
@@ -36,7 +36,7 @@ def day_6_part_1():
     print(sum_of_counts)
 
 def day_6_part_2():
-    with open("customs_answers.txt", "r") as customs_answers:
+    with open("inputs/customs_answers.txt", "r") as customs_answers:
         # print([line.strip() for line in customs_answers.readlines() if line != "\n"])
         text = customs_answers.read()
     groups = [group.split("\n") for group in text.split("\n\n")]

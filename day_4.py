@@ -119,7 +119,7 @@ def check_regex(value, field):
         return False
 
 def day_4_part_1():
-    passports = read_passports("passports.txt")
+    passports = read_passports("inputs/passports.txt")
     n_valid = 0
     for passport in passports:
         if is_valid(passport):
@@ -128,7 +128,7 @@ def day_4_part_1():
 
 
 def day_4_part_2():
-    passports = read_passports("passports.txt")
+    passports = read_passports("inputs/passports.txt")
     n_valid = 0
     n_invalid = 0
     for passport in passports:

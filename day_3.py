@@ -2,7 +2,7 @@ import math
 
 
 def read_treefile(treefile):
-    with open("tree_patten.txt", "r") as treefile:
+    with open("inputs/tree_patten.txt", "r") as treefile:
         rows = treefile.readlines()
     for i in range(len(rows)):
         rows[i] = rows[i].strip()
@@ -11,7 +11,7 @@ def read_treefile(treefile):
 
 def day_3_part_1_and_2():
 
-    rows = read_treefile("tree_pattern.txt")
+    rows = read_treefile("inputs/tree_pattern.txt")
     nrows = len(rows)
     ncols = len(rows[0])
 

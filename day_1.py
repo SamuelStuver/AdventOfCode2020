@@ -28,5 +28,5 @@ def day_1_part_2(filename):
                     return i * j * k
 
 if __name__ == "__main__":
-    print(day_1_part_1("expense_report.txt"))
-    print(day_1_part_2("expense_report.txt"))
+    print(day_1_part_1("inputs/expense_report.txt"))
+    print(day_1_part_2("inputs/expense_report.txt"))
